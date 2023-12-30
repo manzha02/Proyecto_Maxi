@@ -1,0 +1,429 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inicio{
+    background-image:url(../assets/header.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.SUBTITULOS-INDEX{
+    background-color: red;
+    color: white;
+    text-align: right;
+    padding: 1%;
+    margin-bottom: 5%;
+    margin-left: 40%;
+    justify-content:left;
+    display: flex;
+    font-size: 4em;
+}
+
+.logo {
+width: 250px;
+margin: 5%;
+}
+
+.nav{
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    padding-right: 1%;
+    float: right;
+    width: 100%;
+}
+
+
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+
+li{
+    float: right;
+}
+
+li a:hover:not(:active){
+    background-color: red;
+}
+
+li a {
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+text-align: right;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+font-size: 3rem;
+margin:auto;
+margin-right: 5%;
+padding: 0%;
+line-height: 4.5rem;
+padding-bottom: 5%;
+}
+
+body{
+    background-color: black;
+
+}
+.formulario{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+fieldset{
+    width: 70%;
+    margin-left: 15%;
+}
+
+input, textarea{
+    width: 100;
+    margin-bottom: 20px;
+    padding: 7px;
+    border-width: 2px;
+    box-sizing: border-box;
+}
+
+textarea{
+    height: 100px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+input{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+legend{
+    font-size: 1.5em;
+}
+
+.contenedor-anuncios{
+    text-align: center;
+    color: white; 
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-inicio img{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    font-style: italic;
+    color: white;
+    width: 450px;
+    height: 650px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.boton{
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 15px 100px;
+    margin: 2%;
+    cursor: pointer;
+   }
+
+.imagen-blog{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(205, 203, 203);
+}
+
+.imagen-blog img{ 
+    margin: 0%;
+    padding: 0%;   
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 10%;
+    
+}
+
+.h3-blog{
+    padding-bottom: 1%;
+    padding-top: 2%;
+    color:rgb(1, 1, 1);
+    text-align: left;
+    padding-left: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+
+.img-fin{
+    background-image: url(../assets/encuentra.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    padding: 0;
+    margin-top: 10%;
+}
+
+.texto-final{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+font-size: 2rem;
+padding-top:10%;
+margin-bottom: 0;
+line-height: 4.5rem;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    padding-top: 10%;
+}
+.footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+h3{
+    color: rgb(250, 250, 250);
+    
+    font-size: 2.7em;
+    padding-top: 5%;
+    text-align: center;
+}
+
+h4{
+    color: rgb(250, 250, 250);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    padding-top: 15%;
+    margin: 0;
+    text-align: center;
+}
+
+.h5{
+    float: right;
+    font-size: 1.5em;
+    line-height: 2.4rem;
+}
+
+footer img{
+    width: auto;
+    height: auto;
+}
+
+p{
+    margin-top:2%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+
+}
+
+.img-nosotros img{
+    width: 100%;
+    image-resolution: 1920px;
+    margin-top: 0;
+}
+    
+.conte-iconos{ 
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.icon img{
+    width: 200px;
+    height: 200px;
+}
+
+.iconos{
+    width: 300px;
+    margin: 0; 
+    padding-top: 5%;
+}
+
+
+.img-nosotros2 img{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding-bottom: 10%;
+    font-style: italic;
+    width: 150px;
+    overflow: hidden;
+}
+
+.galeria{
+    display: grid;
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 5%;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(3,250px);
+    grid-template-areas: 
+    "img1 img1 img2 img2"
+    "img1 img1 img3 img4"
+    "img1 img1 img5 img5";
+    gap: 3rem;
+    justify-content: center;
+}
+
+.imagen-galeria{
+    width: 100%;
+    height: 100%;
+}
+
+.imagen-galeria img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.img1 {
+    grid-area:img1;
+}
+.img2 {
+    grid-area:img2;
+}
+.img3 {
+    grid-area:img3;
+}
+.img4 {
+    grid-area:img4;
+}
+.img5 {
+    grid-area:img5;
+}
+
+
+
+@media (max-width: 750px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2%;
+        margin: 0;
+    }
+
+
+        .logo{
+            padding-top: 15%;
+            width: 150px;
+        }
+        h1{
+            font-size: 3rem;
+            padding-bottom: 5%;
+        }
+    
+        .img-inicio img{
+            width: 100%;
+            height: 50%;
+            padding: 15%;
+            padding-bottom: 2%;
+        }
+
+        h3{
+            font-size: 2.5rem;
+            padding-top: 0;
+        }
+
+        .boton{
+            width: 50%;
+            font-size: 2em;
+            text-align: center;
+            padding: 1%;
+        }
+
+        .SUBTITULOS-INDEX{
+            font-size: 1.7em;
+        }
+    
+        .texto-final{
+            padding-top: 50%;
+        }
+    }
+
+        .img-fin{
+            width: 100%;
+            background-attachment: unset;
+        }
+
+        h2{
+            font-size: 1.2em;
+            font-family:'Gill Sans';
+        }
+
+        h5{
+            line-height: 25px;
+        }
+    
+        footer{
+            font-size: 0.6em;
+            padding-top: 10%;
+        }
+        .inicio{
+            width: 100%;
+        }
+        h4{
+            font-size: 1.7em;
+        }
+        p{
+            font-size: 1.5em;
+            text-align: justify;
+        }
+    
+        textarea{
+            width: 90%;
+        }
+
+        input{
+            width: 90%;
+        }
+
+        @media (max-width: 600px){
+        .galeria{
+            padding-top: 5%;
+            padding-left: 10%;
+            width: 90%;
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+            "img2 img2"
+            "img1 img1"
+            "img4 img4"
+            "img5 img5"
+            "img3 img3"
+             
+        ;
+        }
+        .conte-iconos{ 
+            text-align: center;
+            width: 100%;
+            align-items: center;
+            flex-wrap:wrap;
+            flex-direction: column;
+            padding-top: 10%;
+    }
